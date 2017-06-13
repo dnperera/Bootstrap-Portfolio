@@ -170,6 +170,45 @@
 
 	/* End Portfolio */
 
+	/*Contact Page */
+
+	.contactinputs input {
+		padding-top:10px;
+		padding-bottom: 10px;
+		width: 90%;
+		margin-top: 10px;
+		border: 2px solid #dddddd;
+	}
+
+	.contactinputs {
+		padding: 10px;
+	}
+
+	.contactinputs textarea {
+		width: 90%;
+		height:100px;
+		margin-top: 10px;
+		border: 2px solid #dddddd;
+
+	}
+
+	.submit {
+		margin-left: 7px;
+	}
+
+	.submit input{
+		background-color: #4aaaa5;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		/*display: inline-block;*/
+		font-size: 18px;
+		margin: 4px 2px;
+		cursor: pointer;
+		
+	}
 
     /*Footer*/
     .footer {
