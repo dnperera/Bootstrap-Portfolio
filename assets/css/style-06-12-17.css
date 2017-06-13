@@ -70,7 +70,7 @@
 	/*Sidebar*/
 
 	.sidebar {
-		/*float: left;*/
+		float: left;
 		background-color: #fff;
 		border: 2px solid #dddddd;
 		padding: 0;
@@ -226,14 +226,12 @@
 	/* Large desktops and laptops */
 	@media (min-width: 1200px) {
 		
-
 	}
 
 	/* Landscape tablets and medium desktops */
 	@media (min-width: 992px) and (max-width: 1199px) {
-		
 		.maincontent{
-			width: 60%;
+			width: 600px;
 			background-color: #fff;
 			border: 2px solid #dddddd;
 			margin-top: 10px;
@@ -241,20 +239,6 @@
 			margin-right: 25px;
 			padding: 10px;
 			margin-bottom: 40px;
-
-		}
-
-		.sidebar {
-		/*float: left;*/
-		background-color: #fff;
-		border: 2px solid #dddddd;
-		padding: 0;
-		margin-top: 10px;
-		width: 90%;
-		/*margin-top: 20px;
-		margin-right: 10px;
-		padding-top: 20px;
-		padding-bottom: 30px;*/
 
 		}
 	}
@@ -265,77 +249,15 @@
 
 			width: 100%;
 		}
-		
-		.sidebar {
-		/*float: left;*/
-		background-color: #fff;
-		border: 2px solid #dddddd;
-		padding: 0;
-		margin-top: 10px;
-		width: 90%;
-		margin-bottom: 20px;
-		/*margin-top: 20px;
-		margin-right: 10px;
-		padding-top: 20px;
-		padding-bottom: 30px;*/
 
-		}
-
-	.socialImages img{
-		width:15%;
-		float: left;
-		margin: 2%;
-	}
-		
 	}
 
 	/* Landscape phones and portrait tablets */
 	@media (max-width: 767px) {
 
-		.container-fluid {
-    		padding: 20px 0 0 0;
-
-		}
-
-		.maincontent {
-		    width: 50%;
-		    
-		}
-
-
-		.sidebar {
-		    margin-left: 0px;
-		    width: 51%;
-		}
-
-		.socialImages img{
-			width:12%;
-		
-		}
-
-		.navbar-nav {
-    			margin-left :0;
-
-		}
-
 	}
 
 	/* Portrait phones and smaller */
 	@media (max-width: 480px) {
-
-		.maincontent{
-			width: 35%;
-
-		}
-
-		.sidebar {
-		
-		width: 35%;
-		/*margin-top: 20px;
-		margin-right: 10px;
-		padding-top: 20px;
-		padding-bottom: 30px;*/
-
-		}
 
 	}
